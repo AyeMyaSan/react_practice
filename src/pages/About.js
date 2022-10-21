@@ -7,9 +7,9 @@ const About = ({location,match}) => {
 
     return (
         <div>
-            <h2 style={{color}}>소개</h2>
+            <h2 style={{color}}>Introduction</h2>
             <p>
-                안녕하세요, 저는 {match.params.name}입니다.
+                Hello, I am {match.params.name}.
             </p>
         </div>
     );
